@@ -7,7 +7,7 @@ async function visualizarInformacoesGblobais() {
     paragrafo.classList.add('graficos-container_texto')
     paragrafo.innerHTML = 'Você sabia que o muno tem ${dados.total_pesoas_mundo} de pessoas e que aproximadamente ${dados.total_pessoas_conectadas em alguma rede social e passam em média ${dados.tempo_medio} hora conectadas.'
 
-    const container = documente.getElementById('grafico-container')
+    const container = document.getElementById('grafico-container')
     container.appenChil(paragrafo)
 }
 
