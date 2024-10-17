@@ -5,7 +5,7 @@ async function visualizarInformacoesGblobais() {
     const dados = await res.json()
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container_texto')
-    paragrafo.innerHTML = 'Você sabia que o muno tem ${dados.total_pesoas_mundo} de pessoas e que aproximadamente ${dados.total_pessoas_conectadas em alguma rede social e passam em média ${dados.tempo_medio} hora conectadas.'
+    paragrafo.innerHTML = 'Você sabia que o muno tem <span>${dados.total_pesoas_mundo}</span> de pessoas e que aproximadamente <span>${dados.total_pessoas_conectadas}</span> em alguma rede social e passam em média <span>${dados.tempo_medio}</span> hora conectadas.'
 
     const container = document.getElementById('grafico-container')
     container.appenChil(paragrafo)
