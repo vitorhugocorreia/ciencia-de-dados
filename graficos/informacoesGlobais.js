@@ -9,6 +9,7 @@ async function visualizarInformacoesGblobais() {
 
     const container = document.getElementById('grafico-container')
     container.appenChil(paragrafo)
+    //tem um erro ai em cima
 }
 
 visualizarInformacoesGblobais();
